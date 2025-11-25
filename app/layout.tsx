@@ -39,9 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Congratulations on Your Third Book Launch | A Celebration",
     description: "Celebrating Semiloore's 3rd book launch.",
-    images: [
-      "https://cdn.jsdelivr.net/gh/tobi-i-codes/semiloore@main/public/seat.png",
-    ],
+    images: ["/preview.pngs"],
   },
   icons: {
     icon: [
