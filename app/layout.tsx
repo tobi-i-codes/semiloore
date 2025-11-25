@@ -20,8 +20,7 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: "Congratulations on Your Third Book Launch | A Celebration",
-  description:
-    "Celebrating Semiloore’s 3rd book launch.",
+  description: "Celebrating Semiloore’s 3rd book launch.",
   generator: "v0.app",
   images: [
     {
@@ -30,7 +29,7 @@ export const metadata: Metadata = {
       height: 630,
       alt: "Semiloore Book Launch",
     },
-  ]
+  ],
   icons: {
     icon: [
       { url: "/seat-icon.png", media: "(prefers-color-scheme: light)" },
