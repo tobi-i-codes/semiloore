@@ -1,2 +1,14 @@
+# Next.js build output
 .next/
+
+# Dependencies
 node_modules/
+
+# Env files (secrets)
+.env
+.env.local
+.env.production
+
+# OS junk
+.DS_Store
+Thumbs.db
