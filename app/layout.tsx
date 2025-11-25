@@ -20,23 +20,33 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: "Congratulations on Your Third Book Launch | A Celebration",
-  description: "Celebrating Semiloore’s 3rd book launch.",
+  description: "Celebrating Semiloore's 3rd book launch.",
   generator: "v0.app",
-  images: [
-    {
-      url: "https://cdn.jsdelivr.net/gh/tobi-i-codes/semiloore@main/public/seat.png", // Paste your image link here
-      width: 1200,
-      height: 630,
-      alt: "Semiloore Book Launch",
-    },
-  ],
+  openGraph: {
+    title: "Congratulations on Your Third Book Launch | A Celebration",
+    description: "Celebrating Semiloore's 3rd book launch.",
+    images: [
+      {
+        url: "https://cdn.jsdelivr.net/gh/tobi-i-codes/semiloore@main/public/seat.png",
+        width: 1200,
+        height: 630,
+        alt: "Semiloore Book Launch",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Congratulations on Your Third Book Launch | A Celebration",
+    description: "Celebrating Semiloore's 3rd book launch.",
+    images: ["https://cdn.jsdelivr.net/gh/tobi-i-codes/semiloore@main/public/seat.png"],
+  },
   icons: {
     icon: [
       { url: "/seat-icon.png", media: "(prefers-color-scheme: light)" },
       { url: "/sit-icon.png", media: "(prefers-color-scheme: dark)" },
       { url: "/icon.svg", type: "image/svg+xml" },
     ],
-    // apple: "/apple-icon.png",
   },
 };
 
