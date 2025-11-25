@@ -22,7 +22,7 @@ export function HeroSection() {
             className="relative w-full h-full rounded-2xl md:rounded-3xl overflow-hidden shadow-2xl"
           >
             <Image
-              src="/semiloore.png"
+              src="https://cdn.jsdelivr.net/gh/tobi-i-codes/semiloore@main/public/semiloore.png"
               alt="Author portrait"
               fill
               className="object-cover"
@@ -57,7 +57,7 @@ export function HeroSection() {
             className="relative w-full h-full rounded-2xl overflow-hidden shadow-xl"
           >
             <Image
-              src="/semi1.webp"
+              src="https://cdn.jsdelivr.net/gh/tobi-i-codes/semiloore@main/public/semi1.webp"
               alt="Author at work"
               fill
               className="object-cover"
@@ -82,7 +82,7 @@ export function HeroSection() {
             className="relative w-full h-full rounded-2xl overflow-hidden shadow-xl"
           >
             <Image
-              src="/semi2.jpg"
+              src="https://cdn.jsdelivr.net/gh/tobi-i-codes/semiloore@main/public/semi2.jpg"
               alt="Book signing"
               fill
               className="object-cover"

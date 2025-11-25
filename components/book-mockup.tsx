@@ -115,7 +115,7 @@ export function BookMockup() {
             }}
           >
             <Image
-              src="/seat.png"
+              src="https://cdn.jsdelivr.net/gh/tobi-i-codes/semiloore@main/public/seat.png"
               alt="Book cover"
               fill
               className="object-cover"
