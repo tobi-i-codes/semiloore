@@ -19,10 +19,18 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Congratulations on Your Book Launch | A Celebration",
+  title: "Congratulations on Your Third Book Launch | A Celebration",
   description:
-    "A digital standing ovation celebrating an incredible book launch. Join us in honoring this momentous achievement.",
+    "Celebrating Semiloore’s 3rd book launch.",
   generator: "v0.app",
+  images: [
+    {
+      url: "https://cdn.jsdelivr.net/gh/tobi-i-codes/semiloore@main/public/seat.png", // Paste your image link here
+      width: 1200,
+      height: 630,
+      alt: "Semiloore Book Launch",
+    },
+  ]
   icons: {
     icon: [
       { url: "/seat-icon.png", media: "(prefers-color-scheme: light)" },
